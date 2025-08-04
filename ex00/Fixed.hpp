@@ -6,7 +6,7 @@
 /*   By: huidris <huidris@student.42kl.edu.my>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 23:23:54 by huidris           #+#    #+#             */
-/*   Updated: 2025/07/31 23:31:26 by huidris          ###   ########.fr       */
+/*   Updated: 2025/08/04 15:53:27 by huidris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ class Fixed
 
 	public:
 		Fixed();
+		Fixed(const Fixed& other);
 		Fixed(const int value);
 		Fixed(const float value);
-		Fixed(const Fixed& other);
 
 		~Fixed();
 
