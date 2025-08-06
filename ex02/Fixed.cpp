@@ -6,7 +6,7 @@
 /*   By: huidris <huidris@student.42kl.edu.my>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 23:23:42 by huidris           #+#    #+#             */
-/*   Updated: 2025/08/06 06:05:44 by huidris          ###   ########.fr       */
+/*   Updated: 2025/08/06 19:07:06 by huidris          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,13 +94,13 @@ float Fixed::operator/(Fixed fixed)const
 //Increment Operator
 Fixed Fixed::operator++()
 {
-	this->_value++;
+	++this->_value;
 	return (*this);
 }
 
 Fixed Fixed::operator--()
 {
-	this->_value--;
+	--this->_value;
 	return (*this);
 }
 
